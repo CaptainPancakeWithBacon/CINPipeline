@@ -6,4 +6,5 @@ jobs:
     steps:
       - run: echo "Yahoo it works big money moves 🤑"
       - uses: actions/checkout@v3
+      - run: "ls"
       - run: npm ci
